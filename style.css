@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.d1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(96, 80, 58);
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 25px;
+}
+.h-nav{
+    margin: 0%;
+    display: flex;
+    padding: 15px;
+    list-style: none;
+    align-items: center;
+}
+
+.h-items{
+    padding: 15px;
+    font-size: 18px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.nb1{
+    padding: 12px;
+    background-color: rgb(157, 122, 77);
+    color: rgb(50, 40, 28);
+    border: none;
+    border-radius: 10px;
+}
+.nb1:hover{
+    background-color: rgb(70, 51, 28);
+    color: bisque;
+}
+
+.s-nav{
+    display: none;
+    list-style: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgb(120, 92, 56);
+    border-radius: 0 0 10px 10px;
+    top: 100%;
+    margin-top: 7px;
+    left: -20px;
+    min-width: 110px;
+    padding: 15px 0;
+    z-index: 9999;
+}
+.h-items:hover .s-nav {
+    display: flex;
+}
+.s-items {
+    padding: 8px 16px;
+}
+.s-items a{
+    color: antiquewhite;
+    text-decoration: none;
+    display: block;
+}
+.s-items a:hover{
+    background-color:antiquewhite;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(96, 80, 58);
+}
+a:hover{
+    color: rgb(189, 130, 54);
+}
+
+.container1{
+    width: 100%;
+    min-height: 90vh;
+    background-color: rgb(167, 139, 105);
+    position: relative;
+}
+
+.img2{
+    position: relative;
+    width: 100%;
+}
+.img2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.c1{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    padding: 20px;
+}
+h1{
+    font-size: 80px;
+    color: rgb(157, 122, 77);
+    line-height: 0.8;
+}
+h2{
+    font-size: 80px;
+}
+p{
+    font-size: 20px;
+    color: bisque;
+}
+.btn{
+    display: flex;
+    gap: 19px;
+    margin-top: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.b1{
+    padding: 10px;
+    background-color: rgb(157, 122, 77);
+    color: rgb(50, 40, 28);
+    border: none;
+    border-radius: 5px;
+}
+.b1:hover{
+    background-color: bisque;
+}
+.b2{
+    padding: 10px;
+    background-color: transparent;
+    color: bisque;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+.b2:hover{
+    background-color: bisque;
+    color: rgb(50, 40, 28);
+}
+
+
+
+
