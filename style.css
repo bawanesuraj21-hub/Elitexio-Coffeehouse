@@ -160,16 +160,19 @@ p{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
+    background-image: url(assests/imeges/Coffee_beans.png);
 }
 .Heading1{
-    width: 45%;
-    height: 28vh;
-    padding: 10px;
+    width: 50%;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 25px;
     margin-top: 40px;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: rgba(250, 235, 215, 0.731);
 }
 .b3{
     padding: 10px;
@@ -178,14 +181,21 @@ p{
     background-color: rgb(157, 122, 77);
     width: 24%;
     font-size: 16px;
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.b3:hover{
+    transform: scale(1.06);
+    background-color: rgb(84, 59, 25);
+    color: antiquewhite;
 }
 
 .container3{
     width: 100%;
-    height: 60vh;
-    background-color: black;
-    display: flex;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
     flex-direction: column;
+    display: flex;
 }
 .head1{
     font-size: 40px;
@@ -202,6 +212,75 @@ p{
 
 .Cards{
     width: 100%;
+    position: absolute;
+    top: 197%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(100, 62, 12);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.card1{
+    width: 30%;
+    height: 53vh;
+    border: 2px solid rgb(157, 122, 77);
+    border-radius: 25px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(253, 253, 253, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+    /* filter: brightness(.9); */
+}
+.card1:hover{
+    transform: scale(1.06);
+    /* filter: brightness(.7); */
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 1);
+}
+.card2{
+    width: 30%;
+    height: 53vh;
+    border: 2px solid rgb(157, 122, 77);
+    border-radius: 25px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.card2:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.card3{
+    width: 30%;
+    height: 53vh;
+    border: 2px solid rgb(157, 122, 77);
+    border-radius: 25px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.card3:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.coffee-info{
+    margin-left: 20px;
+    line-height: 25px;
+}
+h3{
+    color: rgb(247, 221, 187);
+    font-family: Arial;
+}
+h4{
+    color: rgb(199, 172, 136);
+}
+
+.container4{
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(to top right, black 60%, rgb(77, 58, 33));
 }
 
 /* About CSS*/
@@ -224,6 +303,318 @@ p{
     padding: 20px;
 }
 
+.abt-container2{
+    width: 100%;
+    height: 50vh;
+    background-color: antiquewhite;
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
 
+/* ---Menu CSS--- */
 
+.menu-container2{
+    width: 100%;
+    height: 63vh;
+    background-color:antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.menu-head1{
+    font-size: 40px;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+.menu-para1{
+    font-size: 16px;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 2.5;
+    color: rgb(125, 104, 76);
+}
+.Menu-Cards{
+    width: 100%;
+    position: absolute;
+    top: 117%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.menu-card1{
+    width: 30%;
+    height: 42vh;
+    border: 1px solid rgb(157, 122, 77);
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.menu-card1:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.menu-coffee-info{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.menu-coffee-info h3{
+    color: rgb(138, 102, 55);
+}
+.menu-coffee-info h4{
+    color: black;
+    font-size: larger;
+}
+                     /* menu-container3 */
+.menu-container3{
+    width: 100%;
+    height: 63vh;
+    background-color:antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.menu-head2{
+    font-size: 40px;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+.menu-para2{
+    font-size: 16px;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 2.5;
+    color: rgb(125, 104, 76);
+}
+.Menu-Cards2{
+    width: 100%;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.menu-card2{
+    width: 30%;
+    height: 42vh;
+    border: 1px solid rgb(157, 122, 77);
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.menu-card2:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.menu-coffee-info2{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.menu-coffee-info2 h3{
+    color: rgb(138, 102, 55);
+}
+.menu-coffee-info2 h4{
+    color: black;
+    font-size: larger;
+}
+
+                     /* menu-container4 */
+.menu-container4{
+    width: 100%;
+    height: 66vh;
+    background-color:antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.menu-head3{
+    font-size: 40px;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+.menu-para3{
+    font-size: 16px;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 2.5;
+    color: rgb(125, 104, 76);
+}
+.Menu-Cards3{
+    width: 100%;
+    position: absolute;
+    top: 244%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.menu-card3{
+    width: 30%;
+    height: 42vh;
+    border: 1px solid rgb(157, 122, 77);
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.menu-card3:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.menu-coffee-info3{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.menu-coffee-info3 h3{
+    color: rgb(138, 102, 55);
+}
+.menu-coffee-info3 h4{
+    color: black;
+    font-size: larger;
+}
+
+                     /* menu-container5 */
+.menu-container5{
+    width: 100%;
+    height: 66vh;
+    background-color:antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.menu-head4{
+    font-size: 40px;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+.menu-para4{
+    font-size: 16px;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 2.5;
+    color: rgb(125, 104, 76);
+}
+.Menu-Cards4{
+    width: 100%;
+    position: absolute;
+    top: 310%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.menu-card4{
+    width: 30%;
+    height: 42vh;
+    border: 1px solid rgb(157, 122, 77);
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.menu-card4:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.menu-coffee-info4{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.menu-coffee-info4 h3{
+    color: rgb(138, 102, 55);
+}
+.menu-coffee-info4 h4{
+    color: black;
+    font-size: larger;
+}
+
+                     /* menu-container6 */
+.menu-container6{
+    width: 100%;
+    height: 66vh;
+    background-color:antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.menu-head5{
+    font-size: 40px;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 25px;
+    color: black;
+}
+.menu-para5{
+    font-size: 16px;
+    justify-content: flex-start;
+    display: flex;
+    line-height: 2.5;
+    color: rgb(125, 104, 76);
+}
+.Menu-Cards5{
+    width: 100%;
+    position: absolute;
+    top: 375%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.menu-card5{
+    width: 30%;
+    height: 42vh;
+    border: 1px solid rgb(157, 122, 77);
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform .7s cubic-bezier(.25, .46, .45, .94);
+}
+.menu-card5:hover{
+    transform: scale(1.06);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+}
+.menu-coffee-info5{
+    margin-left: 15px;
+    line-height: 25px;
+}
+.menu-coffee-info5 h3{
+    color: rgb(138, 102, 55);
+}
+.menu-coffee-info5 h4{
+    color: black;
+    font-size: larger;
+}
 
