@@ -111,11 +111,11 @@
         width: 130%;
         height: 30vh;
         left: 65%;
-        top: 155%;
+        top: 150%;
         gap: 15px;
     }
     .card1, .card2, .card3{
-        height: 25vh;
+        height: 28vh;
         border-radius: 15px;
     }
     .Cards img{
