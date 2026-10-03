@@ -88,7 +88,7 @@ a:hover{
 
 .container1{
     width: 100%;
-    min-height: 90vh;
+    min-height: 30vh;
     background-color: rgb(167, 139, 105);
     position: relative;
 }
@@ -237,7 +237,7 @@ p{
 .card1:hover{
     transform: scale(1.06);
     /* filter: brightness(.7); */
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px rgb(113, 112, 112);
 }
 .card2{
     width: 30%;
@@ -250,7 +250,7 @@ p{
 }
 .card2:hover{
     transform: scale(1.06);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 10px 20px rgb(113, 112, 112);
 }
 .card3{
     width: 30%;
@@ -263,7 +263,7 @@ p{
 }
 .card3:hover{
     transform: scale(1.06);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 10px 20px rgb(113, 112, 112);
 }
 .coffee-info{
     margin-left: 20px;
@@ -281,6 +281,29 @@ h4{
     width: 100%;
     height: 55vh;
     background: linear-gradient(to top right, black 60%, rgb(77, 58, 33));
+    display: flex;
+}
+
+.box2{
+    width: 90%;
+    height: 20vh;
+    background-color: rgba(250, 235, 215, 0.247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    margin-left: 60px;
+}
+.box-info{
+    width: 90%;
+    background-color: rgba(250, 235, 215, 0.247);
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    line-height: 1;
+    margin-left: 60px;
+    border-radius: 0 0 10px 10px;
 }
 
 /* About CSS*/
@@ -311,6 +334,43 @@ h4{
     flex-direction: row;
     display: flex;
     justify-content: space-around;
+}
+
+.abt-container3{
+    width: 100%;
+    height: 60vh;
+    background-color: antiquewhite;
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Heading2{
+    width: 40%;
+    height: 35vh;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.731);
+}
+.icons1{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+}
+.icons-info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    margin-left: 30px;
 }
 
 /* ---Menu CSS--- */
@@ -617,4 +677,11 @@ h4{
     color: black;
     font-size: larger;
 }
+.Footer{
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+}
+
+
 
